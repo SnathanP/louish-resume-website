@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://snathanp.github.io/sitemap.xml
