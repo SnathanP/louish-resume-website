@@ -13,7 +13,7 @@ organizations:
     url: https://wemaintain.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My interests include cloud computing, DevSecOps pratices and industrialization.
 
 # Interests to show in About widget
 interests:
@@ -53,7 +53,7 @@ social:
 # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: ../uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

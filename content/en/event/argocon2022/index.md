@@ -25,7 +25,10 @@ all_day: false
 publishDate: '2022-04-09T00:00:00Z'
 
 authors: []
-tags: [GitOps]
+tags:
+- GitOps
+- ArgoCD
+- ArgoCon
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -57,7 +60,7 @@ url_video: ''
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-  - example
+  - gitops
 ---
 
 As you may know, I am now quite interested in the GitOps ecosphere and specifically the Argo Tooling suite since it was the one deployed at [WeMaintain](https://www.wemaintain.com/). I do not thing I will attend all of the meetings but It will be a good way to challenge my knowledge and believes about ArgoCD with ~the~ experts.
