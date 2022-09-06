@@ -23,8 +23,8 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - certificate_url: https://www.credly.com/earner/earned/badge/aaeb7412-fc5a-4146-a4b2-928721b5a3c9
-    date_end: ''
+  - certificate_url: https://www.credly.com/badges/aaeb7412-fc5a-4146-a4b2-928721b5a3c9/public_url
+    date_end: '2025-07-17'
     date_start: '2022-07-17'
     description: 'Earners of this designation demonstrated the skills, knowledge and competencies to perform the responsibilities of a Kubernetes Administrator. Earners demonstrated proficiency in Application Lifecycle Management, Installation, Configuration & Validation, Core Concepts, Networking, Scheduling, Security, Cluster Maintenance, Logging / Monitoring, Storage, and Troubleshooting'
     organization: Linux Foundation
