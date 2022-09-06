@@ -39,14 +39,13 @@ experience:
     date_start: '2021-02-01'
     date_end: '2022-01-01'
     description: |2-
-      Rationnalisation des processus métiers et internes de VIASEMA:
-      - mise en place de l'approche industrielle et de la transformation DevSecOps.
-      - évangélisation des équipes et structurelle
-      - architecture d'infrastructure, négociations avec des partenaires clouds et déploiement de parc hybride (Azure).
-      - mise en place de chaîne de livraison et déploiement continue (Gitlab-CI, kubernetes, Docker, Helm).
-      - architecture réseau, politique de sécurisation des flux et contrôle d'accès.
-      - introduction de la métrologie et des stratégies d'alerting(prometheus, grafana, logstash, datadog).
-      Egalement à l'origine de changement organisationnels et managériaux, cohésion des équipes, approche agile et ouverture de la connaissance.
+      Rationalization of business and internal processes of VIASEMA:
+      - implementation of the industrial approach and DevSecOps transformation.
+      - team and structural evangelism
+      - infrastructure architecture, negotiations with cloud partners and deployment of hybrid fleet (Azure).
+      - implementation of delivery chain and continuous deployment (Gitlab-CI, kubernetes, Docker, Helm).
+      - network architecture, flow security policy and access control.
+      - introduction of metrology and alerting strategies (prometheus, grafana, logstash, datadog). Also at the origin of organizational and managerial change, team cohesion, agile approach and openness to knowledge.
   - title: Teaching Assistant
     company: EPITA
     company_url: 'https://www.groupe-pomona.fr/en'
@@ -64,14 +63,15 @@ experience:
     date_start: '2019-09-01'
     date_end: '2020-01-15'
     description: |2-
-        - Implémentation de la chaine CI/CD/CT du Groupe Pomona (GitLab, Jenkins, Ansible, Terraform, SonarQube)
-        - Définition et évangélisation et point de référence des bonnes pratiques DevOps pour la D.S.I du groupe
-        - Définition et implémentation des standards d’architecture et des règles techniques de la chaine de livraison
-        - Participation à la définition de la stratégie de gestion des environnements
-        - Implémentation et prise en des premières solutions et chaines basées Azure
-        - Participe la transition organisationnelle et à l’évolution des méthodes de travail [Agile/Scrum]
-        - Participation à la conception et construction de la plateforme CaaS interne (Rancher/Kubernetes)
-        - Implémentation de la première solution de métrologie (E.L.K, Prometheus & Grafana) infrastructure
+      Participation in the IT industrialization process:
+      - Implementation of the CI/CD/CT chain of the Pomona Group (GitLab, Jenkins, Ansible, Terraform, SonarQube)
+      - Definition, evangelization and reference point of good DevOps practices for the group's IT department
+      - Definition and implementation of architectural standards and technical rules of the delivery chain
+      - Participation in the definition of the environment management strategy
+      - Implementation and support of the first Azure-based solutions and chains
+      - Participate in the organizational transition and the evolution of working methods [Agile/Scrum]
+      - Participation in the design and construction of the internal CaaS platform (Rancher/Kubernetes)
+      - Implementation of the first metrology solution (E.L.K, Prometheus & Grafana) infrastructure
 
 design:
   columns: '2'
