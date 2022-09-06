@@ -73,15 +73,6 @@ experience:
         - Participation à la conception et construction de la plateforme CaaS interne (Rancher/Kubernetes)
         - Implémentation de la première solution de métrologie (E.L.K, Prometheus & Grafana) infrastructure
 
-  - title: Graduate Engineer Student
-    company: EPITA
-    company_url: 'https://www.epita.fr/en/'
-    company_logo: epita
-    location: Paris
-    date_start: '2016-09-01'
-    date_end: '2021-08-28'
-    description: EPITA trains its students to become outstanding engineers who boast a solid base of scientific knowledge and the most advanced skills in the digital sector.
-
 design:
   columns: '2'
 ---
