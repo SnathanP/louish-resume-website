@@ -62,9 +62,9 @@ email: ''
 highlight_name: true
 ---
 
-Hello world! Freshly graduated from EPITA, I just not wanted to create and enhanced solutions to answers company needs, I wanted to see beyond the code, how it will become parts of the life of a company, for its consumers, for its customers and how it was brought to them.
+Hello world! Freshly graduated from EPITA, I just not wanted to create and enhanced solutions to answer company needs, I wanted to see beyond the code, how it will become part of the daily life of a company, for its consumers, for its customers and how it was brought to them.
 
-As an engineer, the why is central to my approach and enriches myself with a lot of experience but also allows me to re-think the needs and processes at its origins.
+As an engineer, the why is central to my approach and enriches myself with a lot of experiences and contexts but also allows me to re-think the needs and processes at its origin.
 
 Does your company has a story to tell?
 
