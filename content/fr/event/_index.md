@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: Interventions passées et à venir
 cms_exclude: true
 
 # View.
