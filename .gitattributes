@@ -36,3 +36,5 @@ content/fr/post/3-ide-spying-on-me/featured.jpg filter=lfs diff=lfs merge=lfs -t
 content/en/post/2-aws-complexity/featured.jpg filter=lfs diff=lfs merge=lfs -text
 content/fr/post/2-aws-complexity/vpc-commons-needs.png filter=lfs diff=lfs merge=lfs -text
 content/fr/post/2-aws-complexity/vpc-commons.png filter=lfs diff=lfs merge=lfs -text
+content/en/post/1-argocd-in-prod-wm/featured.jpg filter=lfs diff=lfs merge=lfs -text
+content/fr/post/1-argocd-in-prod-wm/featured.jpg filter=lfs diff=lfs merge=lfs -text

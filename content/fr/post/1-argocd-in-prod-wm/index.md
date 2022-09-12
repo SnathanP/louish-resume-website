@@ -1,6 +1,6 @@
 ---
-title: ArgoCD in production at WeMaintain !
-subtitle: For some time now at WeMaintain, ArgoCD has been around, spreading projects throught projects. Since this Monday, it is now used for production apps! But to what extent?
+title: ArgoCD en production chez WeMaintain !
+subtitle: Depuis quelque temps déjà chez WeMaintain, ArgoCD furte, se diffusant les projets par projets. Depuis ce lundi, il est désormais utilisé pour les applications de production ! Mais jusqu'à quel point ?
 
 # Summary for listings and search engines
 summary: 
