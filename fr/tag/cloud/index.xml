@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cloud | Louis Holleville</title><link>https://v2.louis-holleville.fr/fr/tag/cloud/</link><atom:link href="https://v2.louis-holleville.fr/fr/tag/cloud/index.xml" rel="self" type="application/rss+xml"/><description>cloud</description><generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Thu, 08 Sep 2022 17:55:00 +0000</lastBuildDate><image><url>https://v2.louis-holleville.fr/media/icon_hud7230873ec5b940f2123220bb748e78c_5271_512x512_fill_lanczos_center_3.png</url><title>cloud</title><link>https://v2.louis-holleville.fr/fr/tag/cloud/</link></image><item><title>A propos de la complexité d'utilisation des ressources AWS</title><link>https://v2.louis-holleville.fr/fr/post/2-aws-complexity/</link><pubDate>Thu, 08 Sep 2022 17:55:00 +0000</pubDate><guid>https://v2.louis-holleville.fr/fr/post/2-aws-complexity/</guid><description>&lt;p>Le Cloud est un outil merveilleux, la flexibilité qu&amp;rsquo;il nous donne est d&amp;rsquo;une plus-value incomparable aux infrastructures d&amp;rsquo;il n&amp;rsquo;y a pas si longtemps. Plus besoin d&amp;rsquo;être dans le prédictif, dans l&amp;rsquo;anticipation du besoin, plus besoin d&amp;rsquo;expert CISCO introuvables et hors de prix. Pourquoi s&amp;rsquo;encombrer d&amp;rsquo;autant de savoir et de couches de savoir quand d&amp;rsquo;autres peuvent le faire bien mieux, de manière mutualisée et abordable ?
+Récemment, j&amp;rsquo;ai eu l&amp;rsquo;occasion de travailler sur les aspects réseaux de notre infrastructure à &lt;a href="https://wemaintain.com" target="_blank" rel="noopener">WeMaintain&lt;/a> et de redécouvrir l&amp;rsquo;énorme palette d&amp;rsquo;outil proposé par AWS pour résoudre le moindre de nos besoins. Mais l&amp;rsquo;expérience n&amp;rsquo;a pas été aussi ergonomique qu&amp;rsquo;à ce que j&amp;rsquo;aurai pu m&amp;rsquo;y attendre. L&amp;rsquo;aurait-elle due?&lt;/p>
+&lt;p>La dynamique des acteurs cloud ces dernières années a été de rendre de plus en plus de services accessibles, à moindre coût. Ainsi, beaucoup d&amp;rsquo;infra y ont vu naissance et beaucoup d&amp;rsquo;existante y ont migré. Parralèlement, l&amp;rsquo;accès à ses services s&amp;rsquo;est simplifié, rendant l&amp;rsquo;attrait plus fort et l&amp;rsquo;expérience utilisateur plus engageante, selon moi. Dans cette dynamique, en 2022, je me suis attelé à vouloir créer un &lt;a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html" target="_blank" rel="noopener">réseau virtuel privé (VPC)&lt;/a> dans AmazonWebService (AWS) afin de tester la possibilité de créer une zone isolée d&amp;rsquo;internet, dont l&amp;rsquo;accès n&amp;rsquo;est possible que depuis un bastion et dont le but est d&amp;rsquo;opérer uniquement des services internes à notre SI. Dans un monde idéal, ce VPC n&amp;rsquo;était connecté à internet que pour les besoins de mises à jour de ses composants.&lt;/p>
+&lt;p>
+&lt;figure id="figure-initial-needs-schema">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://v2.louis-holleville.fr/fr/post/2-aws-complexity/vpc-commons-needs.png" alt="Initial VPC needs" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Initial needs schema
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>La réalité de l&amp;rsquo;exécution a été légèrement différente et c&amp;rsquo;est la que nous rentrons dans le vif du sujet. Quand bien même l&amp;rsquo;accès à ces services s&amp;rsquo;est simplifié, leur usage est resté à peu près le même. CICD, sous-réseau, gateway mais si tout les mots-clés n&amp;rsquo;y sont pas, l&amp;rsquo;ensemble des notions restent le même. Il y a même désormais une couche supplémentaire: celle du provider cloud. En ajoutant leur interfacage sur ces concepts réseaux, ils ont développé leurs propres modules qui répondent à leurs propres règles et recommandations. Ainsi, un expert réseau se doit désormais d&amp;rsquo;être aussi un expert réseau cloud. La complexité monte quand d&amp;rsquo;Azure à AWS les noms, les règles changent également. Et nous voilà avec une toute nouvelle profession. Non pas que cela soit gênant, car elle couvre bien plus de besoin avec moins de compétente, mais qu&amp;rsquo;on aurait pu s&amp;rsquo;attendre à ce qu&amp;rsquo;elle n&amp;rsquo;existe pas du tout.&lt;/p>
+&lt;p>En effet, j&amp;rsquo;ai été fortement étonné quand j&amp;rsquo;ai eu, moi-même, à mettre en application des architectures réseaux basées sur des besoins basiques. Créer un VPC isolé d&amp;rsquo;internet ne me semble pas si spécifique. Créer un VPC dont l&amp;rsquo;accès depuis l&amp;rsquo;extérieur est impossible ne me le semble pas non plus. Et pourtant, c&amp;rsquo;est à moi de faire les recherches, de me documenter pour accomplir cela selon le standard du provider cloud en question.&lt;/p>
+&lt;p>Ne serait-on donc pas encore à l&amp;rsquo;apogée du cloud et du no-infrastructure ? Car si une dynamique est claire, c&amp;rsquo;est bien celle de rendre le cloud si accessible que le seul métier qui y soit associé soit &amp;ldquo;expert clic-clic AWS/Azure/etc&amp;rdquo;, si cela devait encore être un métier et pas juste une formation.&lt;/p>
+&lt;p>Toujours est-il que mon métier d&amp;rsquo;ingénieur m&amp;rsquo;a permis de m&amp;rsquo;en tirer en une après-midi. Peut-on aller plus loin?&lt;/p>
+&lt;p>Le schéma final de l&amp;rsquo;infrastructure de mon projet ressemble finalement à cela et je l&amp;rsquo;imagine être le standard, selon mes recherches.&lt;/p>
+&lt;p>
+&lt;figure id="figure-final-vpc-schema">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://v2.louis-holleville.fr/fr/post/2-aws-complexity/vpc-commons.png" alt="Final VPC schema" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Final VPC schema
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>Il aurait même pu être encore plus parfait si je ne m&amp;rsquo;étais pas rendu compte que des acteurs tels GitHub&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> ne gérait pas encore l&amp;rsquo;IPv6 et si je n&amp;rsquo;avais pas eu à intégrer une couche IPv4 en dépit, j&amp;rsquo;aurai eu un egress IPv6 only, ce qui est vachement sexy.&lt;/p>
+&lt;p>Dans un futur proche ?&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://github.com/community/community/discussions/10539" target="_blank" rel="noopener">Shame&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>
