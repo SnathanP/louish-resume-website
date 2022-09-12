@@ -13,7 +13,7 @@ organizations:
     url: https://wemaintain.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Mes intêrets profesionnels tournent autour  du Cloud, des pratiques DevSecOps et de l'industrialisation des SI.
 
 # Interests to show in About widget
 interests:
@@ -23,7 +23,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Graduate Engineer in Global IT Management
+    - course: Titre d'ingénieur CTI en Global IT Management
       institution: EPITA
       year: 2021
 
@@ -37,23 +37,23 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://twitter.com/LouisHolleville
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/SnathanP
+  - icon: gitlab
+    icon_pack: fab
+    link: https://gitlab.com/SnathanP
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/louis-holleville
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: ../uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -62,8 +62,12 @@ email: ''
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello world! Tout juste diplômé d'EPITA, je ne voulais pas me contenter de créer des solutions informatiques pour répondre à des besoins instantanés, je voulais voir au délà du code, comment il s'inscrivait dans une logique métier, comment il faisait vivre un SI au quotidien, comment il était percu par ses utilisateurs et par les clients. Le comprendre, au dela.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+As an engineer, the why is central to my approach and enriches myself with a lot of experiences and contexts but also allows me to re-think the needs and processes at its origin.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+En tant qu'ingénieur, se demander "pourquoi?" est ma motivation principale, car la plus instructive. Plus mes expériences sont nombreuses, plus les contextes me sont familiés et je suis capable de raconter l'histoire d'un SI au jugé.
+
+Votre entreprise a-t-elle une histoire à raconter?
+
+{{< icon name="download" pack="fas" >}} Téléchargez mon {{< staticref "uploads/resume.pdf" "newtab" >}}CV{{< /staticref >}}.
