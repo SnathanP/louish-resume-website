@@ -10,7 +10,7 @@ headless: true
 weight: 50
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Accomplish&shy;ments'
+title: 'Certifications'
 subtitle:
 
 # Date format
@@ -23,30 +23,14 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - certificate_url: https://www.coursera.org
-    date_end: ''
-    date_start: '2021-01-25'
-    description: ''
-    organization: Coursera
-    organization_url: https://www.coursera.org
-    title: Neural Networks and Deep Learning
-    url: ''
-  - certificate_url: https://www.edx.org
-    date_end: ''
-    date_start: '2021-01-01'
-    description: Formulated informed blockchain models, hypotheses, and use cases.
-    organization: edX
-    organization_url: https://www.edx.org
-    title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  - certificate_url: https://www.datacamp.com
-    date_end: '2020-12-21'
-    date_start: '2020-07-01'
-    description: ''
-    organization: DataCamp
-    organization_url: https://www.datacamp.com
-    title: 'Object-Oriented Programming in R'
-    url: ''
+  - certificate_url: https://www.credly.com/badges/aaeb7412-fc5a-4146-a4b2-928721b5a3c9/public_url
+    date_end: '2025-07-17'
+    date_start: '2022-07-17'
+    description: 'Les lauréats de cette certification ont démontré les aptitudes, les connaissances et les compétences nécessaires pour assumer les responsabilités d'un administrateur Kubernetes. Les lauréats ont démontré leur maîtrise de la gestion du cycle de vie des applications, de l'installation, de la configuration et de la validation, des concepts de base, de la mise en réseau, de la planification, de la sécurité, de la maintenance des clusters, de la journalisation/surveillance, du stockage et du dépannage'
+    organization: Linux Foundation
+    organization_url: 'https://www.linuxfoundation.org/'
+    title: "CKA: Certified Kubernetes Administrator"
+    url: https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/#domains
 
 design:
   columns: '2'

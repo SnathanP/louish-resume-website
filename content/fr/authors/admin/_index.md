@@ -64,8 +64,6 @@ highlight_name: true
 
 Hello world! Tout juste diplômé d'EPITA, je ne voulais pas me contenter de créer des solutions informatiques pour répondre à des besoins instantanés, je voulais voir au délà du code, comment il s'inscrivait dans une logique métier, comment il faisait vivre un SI au quotidien, comment il était percu par ses utilisateurs et par les clients. Le comprendre, au dela.
 
-As an engineer, the why is central to my approach and enriches myself with a lot of experiences and contexts but also allows me to re-think the needs and processes at its origin.
-
 En tant qu'ingénieur, se demander "pourquoi?" est ma motivation principale, car la plus instructive. Plus mes expériences sont nombreuses, plus les contextes me sont familiés et je suis capable de raconter l'histoire d'un SI au jugé.
 
 Votre entreprise a-t-elle une histoire à raconter?
