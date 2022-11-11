@@ -30,6 +30,8 @@ item:
       'Les lauréats de cette certification ont démontré les aptitudes, les connaissances et les compétences nécessaires pour assumer les responsabilités d'un administrateur Kubernetes. Les lauréats ont démontré leur maîtrise de la gestion du cycle de vie des applications, de l'installation, de la configuration et de la validation, des concepts de base, de la mise en réseau, de la planification, de la sécurité, de la maintenance des clusters, de la journalisation/surveillance, du stockage et du dépannage'
       organization: Linux Foundation
       organization_url: 'https://www.linuxfoundation.org/'
+    organization: Linux Foundation
+    organization_url: 'https://www.linuxfoundation.org/'
     title: "CKA: Certified Kubernetes Administrator"
     url: https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/#domains
 
