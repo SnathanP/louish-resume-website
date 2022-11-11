@@ -27,9 +27,7 @@ item:
     date_end: '2025-07-17'
     date_start: '2022-07-17'
     description: |
-      'Les lauréats de cette certification ont démontré les aptitudes, les connaissances et les compétences nécessaires pour assumer les responsabilités d'un administrateur Kubernetes. Les lauréats ont démontré leur maîtrise de la gestion du cycle de vie des applications, de l'installation, de la configuration et de la validation, des concepts de base, de la mise en réseau, de la planification, de la sécurité, de la maintenance des clusters, de la journalisation/surveillance, du stockage et du dépannage'
-      organization: Linux Foundation
-      organization_url: 'https://www.linuxfoundation.org/'
+      Les lauréats de cette certification ont démontré les aptitudes, les connaissances et les compétences nécessaires pour assumer les responsabilités d'un administrateur Kubernetes. Les lauréats ont démontré leur maîtrise de la gestion du cycle de vie des applications, de l'installation, de la configuration et de la validation, des concepts de base, de la mise en réseau, de la planification, de la sécurité, de la maintenance des clusters, de la journalisation/surveillance, du stockage et du dépannage
     organization: Linux Foundation
     organization_url: 'https://www.linuxfoundation.org/'
     title: "CKA: Certified Kubernetes Administrator"
