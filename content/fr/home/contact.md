@@ -33,11 +33,11 @@ content:
   contact_links:
     - icon: linkedin
       icon_pack: fab
-      name: Démarrer la conversation!
+      name: Démarrez la conversation!
       link: 'https://twitter.com/LouisHolleville'
     - icon: twitter
       icon_pack: fab
-      name: Envoyer moi un MP!
+      name: Envoyez moi un MP!
       link: 'https://twitter.com/LouisHolleville'
 design:
   columns: '2'
