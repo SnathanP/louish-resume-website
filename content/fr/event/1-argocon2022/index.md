@@ -13,7 +13,8 @@ address:
   country: United States
 
 summary: J'assisterai à distance à l'ArgoCon en septembre !
-abstract: 'ArgoCon (#ArgoCon) est conçu pour favoriser la collaboration, la discussion et le partage des connaissances sur le projet Argo, qui se compose de quatre projets : Argo CD, Argo Workflows, Argo Rollouts et Argo Events. Cet événement s'adresse aux publics qui découvrent Argo et offre une profondeur à ceux qui utilisent actuellement Argo au sein de leur organisation. Connectez-vous avec d'autres passionnés d'Argo et interagissez avec les responsables du projet. Apprenez des praticiens les pièges à éviter et les meilleures pratiques pour adopter Argo dans votre environnement cloud natif. Inspirez-vous et fournissez des commentaires aux responsables Argo sur les feuilles de route du projet.'
+abstract: |
+  'ArgoCon (#ArgoCon) est conçu pour favoriser la collaboration, la discussion et le partage des connaissances sur le projet Argo, qui se compose de quatre projets : Argo CD, Argo Workflows, Argo Rollouts et Argo Events. Cet événement s'adresse aux publics qui découvrent Argo et offre une profondeur à ceux qui utilisent actuellement Argo au sein de leur organisation. Connectez-vous avec d'autres passionnés d'Argo et interagissez avec les responsables du projet. Apprenez des praticiens les pièges à éviter et les meilleures pratiques pour adopter Argo dans votre environnement cloud natif. Inspirez-vous et fournissez des commentaires aux responsables Argo sur les feuilles de route du projet.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
