@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Louis Holleville # Website name
-baseURL: https://v2.louis-holleville.fr # Website URL
+baseURL: https://www.louis-holleville.fr # Website URL
 
 ############################
 ## LANGUAGE
