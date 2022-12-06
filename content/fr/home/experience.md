@@ -30,7 +30,12 @@ experience:
     date_start: '2022-01-01'
     date_end: ''
     description: |2-
-      Toujours en cours et satisfaisant :)
+      Mise en place de l'état de l'art de l'industrie à WeMaintain:
+      - création de standard de développement et d'opérationel
+      - implémentation du pattern GitOps et évangélisation
+      - intégration complète IaC de la plateforme cloud
+      - création de la stratégie de risque infrastructure
+      - mise en place d'une intégration on-demand, silotée et iso-prod
   - title: Ingénieur DevOps
     company: ViaSema
     company_url: 'https://www.viasema.com/'
