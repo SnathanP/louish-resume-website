@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 70
 
-title: 'Interventions passées et à venir'
+title: 'Évènements passées et à venir'
 subtitle:
 
 content:
