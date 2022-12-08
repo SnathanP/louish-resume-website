@@ -34,7 +34,7 @@ tags:
 featured: false
 
 image:
-  caption: 'Image credit: AWS (https://aws.amazon.com/blogs/publicsector/get-prepared-reinvent-2022-public-sector-guide/)'
+  caption: 'Image credit: [**AWS**](https://aws.amazon.com/blogs/publicsector/get-prepared-reinvent-2022-public-sector-guide/)'
   focal_point: Right
 
 links:
