@@ -11,7 +11,7 @@ projects:
 date: '2022-12-10T14:55:00Z'
 
 # Is this an unpublished draft?
-draft: yes
+draft: false
 
 # Show this page in the Featured widget?
 featured: false
