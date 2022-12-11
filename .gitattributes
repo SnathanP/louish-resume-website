@@ -40,3 +40,5 @@ content/fr/post/2-aws-complexity/vpc-commons-needs.png filter=lfs diff=lfs merge
 content/fr/post/2-aws-complexity/vpc-commons.png filter=lfs diff=lfs merge=lfs -text
 content/en/post/1-argocd-in-prod-wm/featured.jpg filter=lfs diff=lfs merge=lfs -text
 content/fr/post/1-argocd-in-prod-wm/featured.jpg filter=lfs diff=lfs merge=lfs -text
+content/fr/post/4-about-multicloud/featured.jpg filter=lfs diff=lfs merge=lfs -text
+content/en/post/4-about-multicloud/featured.jpg filter=lfs diff=lfs merge=lfs -text
