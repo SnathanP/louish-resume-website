@@ -26,9 +26,6 @@ fr:
     - name: Interventions
       url: '#talks'
       weight: 40
-    - name: Travaux
-      url: '#featured'
-      weight: 50
     - name: Contact
       url: '#contact'
       weight: 60
