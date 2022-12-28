@@ -1,5 +1,4 @@
 * text eol=lf
-
 static/uploads/resume.pdf filter=lfs diff=lfs merge=lfs -text
 assets/media/icon.png filter=lfs diff=lfs merge=lfs -text
 assets/media/icons/brands/wemaintain.png filter=lfs diff=lfs merge=lfs -text
@@ -42,3 +41,4 @@ content/en/post/1-argocd-in-prod-wm/featured.jpg filter=lfs diff=lfs merge=lfs -
 content/fr/post/1-argocd-in-prod-wm/featured.jpg filter=lfs diff=lfs merge=lfs -text
 content/fr/post/4-about-multicloud/featured.jpg filter=lfs diff=lfs merge=lfs -text
 content/en/post/4-about-multicloud/featured.jpg filter=lfs diff=lfs merge=lfs -text
+content/fr/post/5-no-etl/featured.jpg filter=lfs diff=lfs merge=lfs -text
