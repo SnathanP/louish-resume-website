@@ -28,12 +28,12 @@ experience:
     company_logo: wemaintain
     location: Paris, France
     date_start: '2022-01-01'
-    date_end: ''
+    date_end: '2023-04-30'
     description: |2-
       Mise en place de l'état de l'art de l'industrie à WeMaintain:
       - création de standard de développement et d'opérationel
       - implémentation du pattern GitOps et évangélisation
-      - intégration complète IaC de la plateforme cloud
+      - intégration complète IaC de la plateforme cloud AWS
       - création de la stratégie de risque infrastructure
       - mise en place d'une intégration on-demand, silotée et iso-prod
   - title: Ingénieur DevOps

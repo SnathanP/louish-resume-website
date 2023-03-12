@@ -5,12 +5,12 @@ title: Louis Holleville
 superuser: true
 
 # Role/position/tagline
-role: Site Reliability Engineer
+role: Cloud Infrastructure & DevOps Freelance
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: WeMaintain
-    url: https://wemaintain.com/
+#organizations:
+#  - name: WeMaintain
+#    url: https://wemaintain.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My interests include cloud computing, DevSecOps pratices and industrialization.
@@ -62,7 +62,7 @@ email: ''
 highlight_name: true
 ---
 
-Hello world! Freshly graduated from EPITA, I just not wanted to create and enhanced solutions to answer company needs, I wanted to see beyond the code, how it will become part of the daily life of a company, for its consumers, for its customers and how it was brought to them.
+Hello world! Graduated from EPITA in 2021, I was able to travel into different companies, ecosystem, tech stacks and really find my way: Creating and enhancing solutions to answer company needs, I want to see beyond the code, how it will become part of the daily life of a company, for its consumers, for its customers and how it was brought to them.
 
 As an engineer, the why is central to my approach and enriches myself with a lot of experiences and contexts but also allows me to re-think the needs and processes at its origin.
 
