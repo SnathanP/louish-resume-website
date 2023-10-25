@@ -22,6 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Cloud Engineer
+    company: Docaposte
+    company_url: 'https://www.docaposte.com/'
+    company_logo: docaposte
+    location: Ivry-sur-Seine, France
+    date_start: '2023-05-01'
+    #date_end: 'on going'
+    description: |2-
+      Creation from a blank sheet, implementation and run of an internal private cloud platform. Skills mobilised:
+      - infrastructure: architecture and configuration of physical equipment in datacenters
+      - network: architecture and configuration of physical equipment in datacenters
+      - undercloud: establishment of an underlay ecosystem necessary for operating a private cloud
+      - hypervision: exploitation of a suite of hypervision-oriented tools: OpenStack and VMware suite.
+      - CMP: deployment and development of customer interfacing solutions and operation of the services offered.
   - title: Site Reliability Engineer
     company: WeMaintain
     company_url: 'https://wemaintain.com/'

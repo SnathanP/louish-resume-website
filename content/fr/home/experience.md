@@ -22,6 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Ingénieur Cloud
+    company: Docaposte
+    company_url: 'https://www.docaposte.com/'
+    company_logo: docaposte
+    location: Ivry-sur-Seine, France
+    date_start: '2023-05-01'
+    #date_end: 'on going'
+    description: |2-
+      Création depuis une feuille blanche jusqu'à la réalisation et maintient en condition opérationnel d'une plateforme interne de cloud privé. Intervention sur des secteurs:
+      - infrastructure: architecture et configuration des équipements physiques en datacenter
+      - réseau: architecture et configuration des équipements physiques en datacenter
+      - undercloud: mise en place d'un écosystème underlay nécessaire à l'exploitation d'un cloud privé
+      - hypervision: exploitation de suite d'outils orienté hypervision: OpenStack et VMware suite.
+      - CMP: déploiement et développement de solution d'interfacage client et d'exploitation des services proposés.
   - title: Site Reliability Engineer
     company: WeMaintain
     company_url: 'https://wemaintain.com/'
