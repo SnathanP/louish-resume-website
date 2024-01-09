@@ -36,4 +36,10 @@ categories:
   - strategy
 ---
 
-La méthodologie Agile, à travers ses différents framework (XP, scrum, kanban ...), est porteur de plusieurs promesses
+La méthodologie Agile, à travers ses différents framework (XP, scrum, kanban ...), est porteuse de plusieurs promesses. Et sans vous refaire les principes agiles, celui qui est à la fois sa force et sa plus grande faiblesse est: 
+
+> L'adaptation au changement plus que le suivi d'un plan
+
+La grande force de l'agilité réside dans la livraison incrémentale de fonctionnalité dont le retour client va permettre l'ajustement au fur et à mesure du développement. En passant ainsi d'un effet tunnel type waterfall à une livraison continue, le client co-construit la solution finale. Excellent moyen, donc, d'assurer une satisfaction d'un produit dont nous sommes partiellement lauréat de son achèvement.
+
+Cependant, cette promesse papier est soumise à la réalité du marche et du business.
