@@ -42,4 +42,9 @@ La méthodologie Agile, à travers ses différents framework (XP, scrum, kanban 
 
 La grande force de l'agilité réside dans la livraison incrémentale de fonctionnalité dont le retour client va permettre l'ajustement au fur et à mesure du développement. En passant ainsi d'un effet tunnel type waterfall à une livraison continue, le client co-construit la solution finale. Excellent moyen, donc, d'assurer une satisfaction d'un produit dont nous sommes partiellement lauréat de son achèvement.
 
-Cependant, cette promesse papier est soumise à la réalité du marche et du business.
+Cependant, cette promesse papier est soumise à la réalité du marché et du business. Si les livraisons sont devenues régulières, c'est aussi parce que le financement des projets s'est aussi échelonné, sous réserve de preuve de satisfaction. Et ceux, peu importe le contexte, en prenant en exemple le financement de certains projets dans les départements de grandes entreprises. 
+
+Et dès lors, cette quête de la satisfaction se transforme en quête de l'approbation. Et c'est ici que le glissement peut s'opérer. Nous sortons du rationnel, et de la proposition de mener le projet à terme dans le bon ordre, pour se concentrer sur la "waow". Si le stakeholder voit des choses qui lui plaisent, il valide. Peu importe si cela ne fait aucun sens dans la production du projet, ou pire, peu importe si cela ralentit/perturbe son bon déroulement.
+
+Et l'agilité s'en retrouve ainsi tordue. La porte est grande ouverte pour que le chef du projet se rapproche du PO avec une nouvelle idée qui va impressionner les stakeholders. La vision même du projet s'en trouverait compromises ? Peu importe, maintenant que le chef de projet sait que l'agilité accueille "volontier" le changement.
+Et difficile ensuite pour le PO de revenir à la charge avec des arguments rationnels car il faut rappeler d'une deuxième realité, le chef de projet a, très souvent, l'ascendant hiérarchique dessus.
