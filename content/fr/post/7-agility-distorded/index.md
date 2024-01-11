@@ -8,7 +8,7 @@ projects:
 - methology
 
 # Date published
-date: '2024-04-11T14:55:00Z'
+date: '2024-01-11T14:55:00Z'
 
 # Is this an unpublished draft?
 draft: false
