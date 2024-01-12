@@ -13,7 +13,7 @@ role: Cloud Infrastructure & DevOps Freelance
 #    url: https://wemaintain.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Mes intêrets profesionnels tournent autour  du Cloud, des pratiques DevSecOps et de l'industrialisation des SI.
+bio: Mes intérêts professionnels tournent autour  du Cloud, des pratiques DevSecOps et de l'industrialisation des SI.
 
 # Interests to show in About widget
 interests:
