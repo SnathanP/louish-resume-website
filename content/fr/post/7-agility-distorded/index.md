@@ -79,7 +79,7 @@ Cela permet ainsi d'optimiser toute la production en ne fournissant à chaque fo
 
 Cependant, cette promesse papier est soumise à la réalité du marché et du business. Si les livraisons sont devenues régulières, c'est aussi parce que le financement des projets s'est échelonné, sous réserve de preuve de satisfaction.
 
-> De nombreuses entreprises distribuent des budgets périodiques à leurs projets/département. Leur montant se base sur des résultats précédents, à venir ou attendus. Cela permet aussi de rectifier ces budgets et de ne pas avoir à immobiliser de grosses sommes d'argent (parfois) inutilement .  
+> De nombreuses entreprises distribuent des budgets périodiques à leurs projets/département. Leur montant se base sur des résultats précédents, à venir ou attendus. Cela permet aussi de rectifier ces budgets et de ne pas avoir à immobiliser de grosses sommes d'argent (parfois) inutilement.  
 
 Et dès lors, cette condition de la satisfaction se transforme en quête de l'approbation. Et c'est ici que le glissement peut s'opérer.
 Nous sortons du rationnel, et de la proposition de mener le projet à terme dans le bon ordre, pour se concentrer sur le "waow".
