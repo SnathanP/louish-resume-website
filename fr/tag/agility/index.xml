@@ -1,10 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>agility | Louis Holleville</title><link>https://www.louis-holleville.fr/fr/tag/agility/</link><atom:link href="https://www.louis-holleville.fr/fr/tag/agility/index.xml" rel="self" type="application/rss+xml"/><description>agility</description><generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Thu, 11 Jan 2024 14:55:00 +0000</lastBuildDate><image><url>https://www.louis-holleville.fr/media/icon_hud7230873ec5b940f2123220bb748e78c_5271_512x512_fill_lanczos_center_3.png</url><title>agility</title><link>https://www.louis-holleville.fr/fr/tag/agility/</link></image><item><title>L'agilité distordue</title><link>https://www.louis-holleville.fr/fr/post/7-agility-distorded/</link><pubDate>Thu, 11 Jan 2024 14:55:00 +0000</pubDate><guid>https://www.louis-holleville.fr/fr/post/7-agility-distorded/</guid><description>&lt;p>La méthodologie Agile, à travers ses différents framework (XP, scrum, kanban &amp;hellip;), est porteuse de plusieurs promesses. Et sans vous refaire les principes agiles, celui qui est à la fois sa force et sa plus grande faiblesse est:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>agility | Louis Holleville</title><link>https://www.louis-holleville.fr/fr/tag/agility/</link><atom:link href="https://www.louis-holleville.fr/fr/tag/agility/index.xml" rel="self" type="application/rss+xml"/><description>agility</description><generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><lastBuildDate>Thu, 11 Jan 2024 14:55:00 +0000</lastBuildDate><image><url>https://www.louis-holleville.fr/media/icon_hud7230873ec5b940f2123220bb748e78c_5271_512x512_fill_lanczos_center_3.png</url><title>agility</title><link>https://www.louis-holleville.fr/fr/tag/agility/</link></image><item><title>L'agilité distordue</title><link>https://www.louis-holleville.fr/fr/post/7-agility-distorded/</link><pubDate>Thu, 11 Jan 2024 14:55:00 +0000</pubDate><guid>https://www.louis-holleville.fr/fr/post/7-agility-distorded/</guid><description>&lt;p>La méthodologie Agile, à travers ses différents framework (XP, scrum, kanban &amp;hellip;), est porteuse de nombreuses promesses.&lt;/p>
 &lt;blockquote>
-&lt;p>L&amp;rsquo;adaptation au changement plus que le suivi d&amp;rsquo;un plan&lt;/p>
+&lt;p>Les individus et leurs interactions, de préférence aux processus et aux outils&lt;/p>
+&lt;p>Des solutions opérationnelles, de préférence à une documentation exhaustive&lt;/p>
+&lt;p>La collaboration avec les clients, de préférence aux négociations contractuelles&lt;/p>
+&lt;p>La réponse au changement, de préférence au respect d’un plan&lt;/p>
 &lt;/blockquote>
 &lt;p>La grande force de l&amp;rsquo;agilité réside dans la livraison incrémentale de fonctionnalité dont le retour client va permettre l&amp;rsquo;ajustement au fur et à mesure du développement. En passant ainsi d&amp;rsquo;un effet tunnel type waterfall à une livraison continue, le client co-construit la solution finale. Excellent moyen, donc, d&amp;rsquo;assurer une satisfaction d&amp;rsquo;un produit dont nous sommes partiellement lauréat de son achèvement.&lt;/p>
+&lt;h2 id="la-méthode-waterfall">La méthode Waterfall&lt;/h2>
+&lt;p>Avant l&amp;rsquo;agilité, la méthode Waterfall était la plus répandue dans la gestion de projet. Méthode simple à comprendre, elle consiste à mettre une emphase sur la phase préparatoire afin que la réalisation qui s&amp;rsquo;ensuit n&amp;rsquo;ait qu&amp;rsquo;à suivre un chemin si balisé que l&amp;rsquo;exécution et le résultat dévient très peu du plan.&lt;/p>
+&lt;p>
+&lt;figure id="figure-waterfall-workflow">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="waterfall.png" alt="Waterfall workflow" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Waterfall workflow
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;blockquote>
+&lt;p>Un exemple de conduite de projet waterfall pourrait être la construction d&amp;rsquo;une voiture comme suit: on prend le besoin du conducteur, on designe l&amp;rsquo;ensemble des plans pour la voiture de rêve du conducteur puis on envoie la voiture en production à l&amp;rsquo;usine. Une fois la voiture produite, on la teste pour s&amp;rsquo;assurer de son bon fonctionnement et on la livre au client. Enfin, on se chargera de maintenir la voiture durant toute sa durée de vie chez le client.&lt;/p>
+&lt;/blockquote>
+&lt;p>La méthode Waterfall présente donc aussi certaines contraintes:&lt;/p>
+&lt;ul>
+&lt;li>la phase de préparation étant conséquente, l&amp;rsquo;accueil du changement en cours de route s&amp;rsquo;en voit restreint, sans incidence minime.&lt;/li>
+&lt;li>le risque de non-alignement des besoins. Le recueil du besoin n&amp;rsquo;étant effectué qu&amp;rsquo;en début de projet, son développement est en tunnel, coutant cher et d&amp;rsquo;autant plus si le résultat atteint manque le besoin.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Avec notre exemple de voiture, voici ce qui pourrait rater:&lt;/p>
+&lt;ul>
+&lt;li>les plans réalisés ne reflètent pas une réalité technique réalisable en usine&lt;/li>
+&lt;li>les cycles de tests montrent des défaillances techniques ou de design qui nécessite le renvoi dans des étapes précédentes.&lt;/li>
+&lt;li>le client voulait une citadine et pas un SUV.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="lalternative-agile">L&amp;rsquo;alternative agile&lt;/h2>
+&lt;p>L&amp;rsquo;agilité, au contraire, intègre le besoin client tout au long du développement du projet. La phase initiale de prise de besoin est plus courte, et les livrables arrivent aussi plus rapidement, à peine fonctionels et gagnent en consistance au fur et à mesure des livraisons. L&amp;rsquo;intérêt réside dans la prise de retour des clients et de leur besoin afin d&amp;rsquo;ajuster au fur et à mesure.
+Cela permet ainsi d&amp;rsquo;optimiser toute la production en ne fournissant à chaque fois exactement que ce qui est attendu.&lt;/p>
+&lt;blockquote>
+&lt;p>Le client souhaite une voiture. Le besoin est pris et synthétisé, les équipes commencent à réfléchir au design. les premières ébauches sont présentées au client qui précise ses attentes. La carcasse est envoyé à l&amp;rsquo;assemblage et le client valide la carcasse. Le moteur est ajouté mais à l&amp;rsquo;inspection, le client souhaite un moteur plus modeste: le moteur est changé. A terme, le client obtient une voiture complétement assemblée et fonctionnelle.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="les-limites">Les limites&lt;/h2>
 &lt;p>Cependant, cette promesse papier est soumise à la réalité du marché et du business. Si les livraisons sont devenues régulières, c&amp;rsquo;est aussi parce que le financement des projets s&amp;rsquo;est aussi échelonné, sous réserve de preuve de satisfaction. Et ceux, peu importe le contexte, en prenant en exemple le financement de certains projets dans les départements de grandes entreprises.&lt;/p>
+&lt;blockquote>
+&lt;p>De nombreuses entreprises distribuent des budgets périodiques à leurs projets/département. Leur montant se base sur des résultats précédents, à venir ou attendus. Cela permet aussi de rectifier ces budgets et de ne pas avoir à immobiliser de grosses sommes d&amp;rsquo;argent (parfois) inutilement .&lt;/p>
+&lt;/blockquote>
 &lt;p>Et dès lors, cette condition de la satisfaction se transforme en quête de l&amp;rsquo;approbation. Et c&amp;rsquo;est ici que le glissement peut s&amp;rsquo;opérer. Nous sortons du rationnel, et de la proposition de mener le projet à terme dans le bon ordre, pour se concentrer sur la &amp;ldquo;waow&amp;rdquo;. Si le stakeholder voit des choses qui lui plaisent, il valide. Peu importe si cela ne fait aucun sens dans la production du projet, ou pire, peu importe si cela ralentit/perturbe son bon déroulement. Et comme le stakeholder est souvent impliqué, de près ou de loin, dans le budget du projet, il est vital qu&amp;rsquo;il propage un avis positif.&lt;/p>
+&lt;blockquote>
+&lt;p>Les postes de ceux qui distribuent les budgets sont aussi ejectable l&amp;rsquo;un que l&amp;rsquo;autre. La crédibilité et la longévité repose donc à miser sur les bons chevaux.&lt;/p>
+&lt;/blockquote>
 &lt;p>Et l&amp;rsquo;agilité s&amp;rsquo;en retrouve ainsi tordue. La porte est grande ouverte pour que le chef du projet se rapproche du PO avec une nouvelle idée qui va impressionner les stakeholders. La vision même du projet s&amp;rsquo;en trouverait compromises ? Peu importe, maintenant que le chef de projet sait que l&amp;rsquo;agilité accueille &amp;ldquo;volontier&amp;rdquo; le changement.
 Et difficile ensuite pour le PO de revenir à la charge avec des arguments rationnels car il faut rappeler d&amp;rsquo;une deuxième realité, le chef de projet a, très souvent, l&amp;rsquo;ascendant hiérarchique dessus.&lt;/p>
+&lt;blockquote>
+&lt;p>Qui n&amp;rsquo;a jamais entendu au daily son PO annoncer une &amp;ldquo;NOUVELLE REGLE !&amp;rdquo; ?&lt;/p>
+&lt;/blockquote>
 &lt;p>Tous les milieux ne fonctionnent pas comme cela et les cas où la gouvernance joue cavalier seul ne sont pas généralité. Mais plus il y a de la place pour la politique en entreprise, plus l&amp;rsquo;agilité devient une arme dans cette guerre de pouvoir.&lt;/p></description></item></channel></rss>
