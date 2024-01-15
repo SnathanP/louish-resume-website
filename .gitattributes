@@ -44,4 +44,6 @@ content/en/post/4-about-multicloud/featured.jpg filter=lfs diff=lfs merge=lfs -t
 content/fr/post/5-introduction-to-gitops/featured.jpg filter=lfs diff=lfs merge=lfs -text
 content/en/post/5-introduction-to-gitops/featured.jpg filter=lfs diff=lfs merge=lfs -text
 assets/media/icons/brands/docaposte.svg filter=lfs diff=lfs merge=lfs -text
+content/fr/post/6-duality-cloud-on-prem/featured.jpg filter=lfs diff=lfs merge=lfs -text
+content/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 content/fr/post/7-agility-distorded/featured.png filter=lfs diff=lfs merge=lfs -text
